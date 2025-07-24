@@ -1,4 +1,4 @@
-name: "CI - Test Features"
+name: "Test"
 on:
   push:
     branches:
@@ -13,8 +13,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - jsonnet
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -34,8 +33,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - jsonnet
     steps:
       - uses: actions/checkout@v4
 

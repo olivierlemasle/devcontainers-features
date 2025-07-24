@@ -1,4 +1,4 @@
-name: "Validate devcontainer-feature.json files"
+name: "Validate"
 on:
   workflow_dispatch:
   pull_request:
