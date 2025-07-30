@@ -1,0 +1,29 @@
+{
+    "id": "tauri",
+    "version": "1.0.0",
+    "name": "tauri",
+    "documentationURL": "http://github.com/olivierlemasle/devcontainers-features/tree/main/src/tauri",
+    "description": "Install Tauri requirements and CLI",
+    "licenseURL": "https://github.com/olivierlemasle/devcontainers-features/blob/main/LICENSE",
+    "options": {
+        "version": {
+            "default": "latest",
+            "description": "Select the version of Tauri CLI to install.",
+            "proposals": [
+                "latest"
+            ],
+            "type": "string"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/rust",
+        "ghcr.io/devcontainers/features/node"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "tauri-apps.tauri-vscode"
+            ]
+        }
+    }
+}

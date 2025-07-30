@@ -14,11 +14,11 @@ jobs:
       matrix:
         features:
           - jsonnet
+          # - tauri # Use scenarios only (Tauri feature requires Rust)
         baseImage:
           - mcr.microsoft.com/devcontainers/base:alpine
           - mcr.microsoft.com/devcontainers/base:debian
           - mcr.microsoft.com/devcontainers/base:ubuntu
-          - debian:11
           - debian:12
           - ubuntu:22.04
           - ubuntu:24.04
@@ -39,6 +39,7 @@ jobs:
       matrix:
         features:
           - jsonnet
+          - tauri
     steps:
       - uses: actions/checkout@v4
 
