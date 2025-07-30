@@ -1,10 +1,12 @@
 # Dev Container Features
 
-![release features](https://github.com/olivierlemasle/devcontainers-features/actions/workflows/release.yaml/badge.svg?branch=main)
-![test features](https://github.com/olivierlemasle/devcontainers-features/actions/workflows/test.yaml/badge.svg?branch=main)
+[![Tests](https://github.com/olivierlemasle/devcontainers-features/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/olivierlemasle/devcontainers-features/actions/workflows/test.yaml)
+[![Release](https://github.com/olivierlemasle/devcontainers-features/actions/workflows/release.yaml/badge.svg?branch=main)](https://github.com/olivierlemasle/devcontainers-features/actions/workflows/release.yaml)
 
-This repo contains a few features for [devcontainers](https://containers.dev/).
+This repo contains a few features for [Development Containers](https://containers.dev/).
 
 ## Features
 
-* [jsonnet](./src/jsonnet/README.md)
+| Feature                            | Description                          |
+|------------------------------------|--------------------------------------|
+| [jsonnet](./src/jsonnet/README.md) | Install jsonnet and associated tools |
