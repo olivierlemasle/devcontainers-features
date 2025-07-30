@@ -1,11 +1,5 @@
 {
-    "test_debian": {
-        "image": "mcr.microsoft.com/devcontainers/base:debian",
-        "features": {
-            "jsonnet": {}
-        }
-    },
-    "test_specific_version": {
+    "test_specific_jsonnet_version": {
         "image": "mcr.microsoft.com/devcontainers/base:debian",
         "features": {
             "jsonnet": {

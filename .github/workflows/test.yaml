@@ -15,9 +15,14 @@ jobs:
         features:
           - jsonnet
         baseImage:
-          - debian:latest
-          - ubuntu:latest
+          - mcr.microsoft.com/devcontainers/base:alpine
+          - mcr.microsoft.com/devcontainers/base:debian
           - mcr.microsoft.com/devcontainers/base:ubuntu
+          - debian:11
+          - debian:12
+          - ubuntu:22.04
+          - ubuntu:24.04
+          - fedora:latest
     steps:
       - uses: actions/checkout@v4
 
