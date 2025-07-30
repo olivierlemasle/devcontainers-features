@@ -10,3 +10,4 @@ This repo contains a few features for [Development Containers](https://container
 | Feature                            | Description                          |
 |------------------------------------|--------------------------------------|
 | [jsonnet](./src/jsonnet/README.md) | Install jsonnet and associated tools |
+| [tauri](./src/tauri/README.md)     | Install Tauri CLI and requirements   |
